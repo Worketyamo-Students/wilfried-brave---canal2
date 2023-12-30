@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap");
+
+:root {
+  --colorprimery--: #618264;
+  --colorsecondary--: #79ac78;
+  font-family: IBM plex sans hebrew;
+}
+
+ {
+  box-sizing: border-box;
+  padding: ;
+  margin: ;
+  border: 0;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  width: 90%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 64px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #000e01;
+  padding-top: 3rem;
+}
+
+.active {
+  color: #79ac78;
+  gap: 30px;
+  border-bottom: 3px solid #79ac78;
+}
+
+header button {
+  font-size: 18px;
+  color: #fff;
+  background: #618264;
+  padding: 10px 60px;
+  justify-content: center;
+}
+.francis {
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+  padding: 10px 10px;
+  gap: 60px;
+  
+  
+}
+
+.francis_actu {
+  width: 60%;
+  height: 100%;
+  background: url(./image/Group\ 14\ \(1\).svg) center top / cover;
+  border-radius: 20px;
+  display: flex;
+  align-items: end;
+  padding-left: 10px;
+  
+
+}
+
+.francis_actu .text {
+  color: #fff;
+  margin-bottom: 15px;
+  border-left: 8px solid #618264;
+  padding-left: 10px;
+}
+
+.francis_actu .text h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.francis_actu .text span  {
+  font-size: 18px;  
+}
+
+.francis_sug {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+}
+
+.francis_sug_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-right: 160px;
+    font-size: 18px;
+}
+
+.francis_sug h2 {
+  margin: 0;
+  padding: 1px;
+  border-left: 8px solid #618264;
+
+}
+
+.francis_sug img {
+ 
+ padding-top: 5px;
+}
+
+.image5 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  width: 50px;
+  gap: 5rem;
+  align-items: center;
+  padding-top: 15rem;
+  width: 90%;
+  height: 25%;
+}
+.banierre {
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.image3 {
+  padding-left: 150px;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 20px;
+}
+.image4 {
+padding-top: 50px;
+width: 100%;
+height: 90%;
+text-align: center;
+
+
+}
+.svg{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-left: 60%;
+
+}
+
+.image6 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  width: 50px;
+  gap: 5rem;
+  align-items: center;
+  padding-top: 15rem;
+  width: 90%;
+  height: 25%;
+}
+.image7 {
+  width: 30%;
+  height: 190%;
+  background: url(image/Rectangle\ 39.svg) center top / cover;
+  border: 2px;
+  display: flex;
+  align-items: end;
+  padding-left: 60px;
+  align-items: center;
+}
+.image8 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7%;
+  padding-left: 10%;
+}
+.image9 {
+  padding-right: 5%;
+  padding-top: 150px;
+  text-align: center;
+}
+.image10 {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between; 
+ padding-top: 5rem; 
+}
+h3{
+    transform: rotate(-90deg);
+   
+    color: #618264;
+    text-align: center;
+    font-size: large;
+    height: 5%;
+    width: 150%;
+    justify-content: space-between;
+
+    
+
+} 
+h3{
+    float: left;
+    display: flex;
+    
+    
+    
+}
+.h3{
+    float: left;
+    padding-right: 10px;
+    padding-top: 17rem;
+    font-size: 50px;
+    
+
+}
+hr{
+    background-color: #618264;
+    width: 500%;
+    height: 50%;
+}
+.image11{
+    padding-top: 100px;
+    padding-left: 5%;
+}
+.image12{
+    width: 100%;
+    height: 50%;
+    background-color: #79ac78;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+.image14{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 2rem;
+padding-left: 40%;
+}
